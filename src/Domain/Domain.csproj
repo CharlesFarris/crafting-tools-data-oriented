@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>SleepingBearSystems.CraftingTools.Domain</AssemblyName>
+    <RootNamespace>SleepingBearSystems.CraftingTools.Domain</RootNamespace>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SleepingBearSystems.Tools.DataOriented" Version="0.3.0.266" />
+  </ItemGroup>
+
+</Project>
