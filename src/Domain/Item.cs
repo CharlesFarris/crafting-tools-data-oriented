@@ -4,17 +4,17 @@ using SleepingBearSystems.Tools.DataOriented;
 namespace SleepingBearSystems.CraftingTools.Domain;
 
 /// <summary>
-/// Methods used to support profession data.
+/// Methods for handling Item records.
 /// </summary>
-public static class Profession
+public static class Item
 {
     /// <summary>
-    /// Creates a profession record.
+    /// Creates an item record.
     /// </summary>
-    /// <param name="id">The profession ID.</param>
-    /// <param name="name">The profession name.</param>
-    /// <param name="gameId">The game Id.</param>
-    /// <returns>A record containing the profession.</returns>
+    /// <param name="id">The item ID.</param>
+    /// <param name="name">The item name.</param>
+    /// <param name="gameId">The game ID.</param>
+    /// <returns>A record containing an item.</returns>
     public static ImmutableDictionary<string, object> CreateRecord(
         string id,
         string name,

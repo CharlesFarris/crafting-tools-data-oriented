@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SleepingBearSystems.Tools.DataOriented" Version="0.3.0.266" />
+    <PackageReference Include="SleepingBearSystems.Tools.DataOriented" Version="0.3.0.270" />
   </ItemGroup>
 
 </Project>
